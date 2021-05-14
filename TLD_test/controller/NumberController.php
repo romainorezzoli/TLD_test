@@ -13,7 +13,7 @@
 			elseif(is_integer($this->_number->get() / 5)) {
 				return 'PHP';
 			}
-			elseif(is_integer($this->_number->get() / 3) or is_integer($this->_number->get() / 5)) {
+			if(is_integer($this->_number->get() / 3) or is_integer($this->_number->get() / 5)) {
 				return 'TLD_PHP';
 			}
 			else {
