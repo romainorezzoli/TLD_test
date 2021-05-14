@@ -7,8 +7,8 @@
 			$this->_number = $number;
 		}
 		
-		public function printOut() {
-			$out = '<div>' . $this->_number->get() . '</div>';
+		public function printOut($in) {
+			$out = '<div>' . $in . '</div>';
 			
 			return $out;
 		}
